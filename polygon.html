@@ -128,18 +128,6 @@
             </div>
         </section>
 
-        <section>
-            <h3 id="truncate-text">Длинный заголовок в одну строку, который надо обрезать</h3>
-            <script>
-                let txt__3 = document.getElementById("truncate-text");
-                function truncate(str, maxlength) {
-                    return (str.length > maxlength) ?
-                        str.slice(0, maxlength - 1) + '…' : str;
-                }
-                txt__3.innerText = truncate(txt__3.innerText,5);
-                alert(txt__3);
-            </script>
-        </section>
         <script src="scripts/trunker.js"></script>
     </main>
 </body>
